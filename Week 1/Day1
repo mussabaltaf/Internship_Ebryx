@@ -1,0 +1,13 @@
+1. Environment Setup
+I set up the standard Python data science environment used industry-wide for machine learning. This included Jupyter Notebook for interactive development, along with core libraries: pandas and numpy (data handling), seaborn and matplotlib (visualization), and scikit-learn (datasets, models, and evaluation tools). I verified the setup by successfully importing all libraries with no dependency issues.
+
+2. Exploratory Data Analysis (EDA) on the Iris Dataset
+- Loaded the Iris dataset (150 flower samples across 3 species) as a structured pandas DataFrame and inspected its structure.
+- Checked data types, missing values, and statistical summaries (mean, min, max, std) for each feature using df.info() and df.describe().
+- Verified class balance across the three species using value_counts(), which confirmed the dataset is evenly distributed.
+- Visualized relationships between all feature pairs using a Seaborn pairplot, color-coded by species. This helped identify which features (e.g., petal length/width) most clearly separate the different classes.
+
+Key Takeaway: Before building any model, it's essential to understand the data through EDA and visualization. This step directly informs feature selection and gives early intuition about which models are likely to perform well.
+
+Next Steps: Tomorrow I'll cover core ML concepts (bias-variance tradeoff, overfitting/underfitting, evaluation metrics) and begin implementing Linear and Logistic Regression models.
+
