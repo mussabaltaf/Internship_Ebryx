@@ -1,0 +1,12 @@
+Quick summary of today's progress (Week 1 - ML Fundamentals):
+
+1. Linear Regression: Trained a model on the California Housing dataset to predict house prices. Evaluated it using MSE and R², and visualized actual vs. predicted prices. The model captured the overall price trend well, though accuracy dropped for higher-priced homes.
+
+2. Logistic Regression: Trained a classification model on the Iris dataset to predict flower species. Evaluated performance using accuracy, precision, recall, and a confusion matrix to check for any misclassified species.
+
+Key Takeaway: This completes the core supervised learning basics for Week 1 - regression for predicting numbers, and classification for predicting categories - along with the evaluation techniques to judge model performance.
+
+Next Steps: Moving into Week 2 next.
+
+Best regards,
+Mussab Altaf
