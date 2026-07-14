@@ -1,0 +1,19 @@
+
+
+Summary of today's progress (Week 2: Core Classification Models & Data Preprocessing):
+
+1. Data Loading & Preprocessing: Loaded the Titanic dataset (a real-world dataset with missing values and mixed data types) and built a preprocessing pipeline to handle missing data and convert categorical features (sex, class, boarding port) into a model-ready format.
+
+2. Model Comparison: Trained and compared three classification models on Titanic survival prediction:
+- Decision Tree: 79.9% accuracy
+- kNN: 79.3% accuracy
+- Naive Bayes: 76.5% accuracy
+
+3. Confusion Matrix Analysis: Visualized confusion matrices for all three models to understand not just overall accuracy, but the specific types of errors each makes. Decision Tree is conservative (fewer false alarms, more missed survivors), while Naive Bayes is more liberal (catches more survivors, but more false alarms). kNN falls in between.
+
+Key Takeaway: While all three models had similar overall accuracy, they differ meaningfully in the types of mistakes they make. This demonstrates that accuracy alone doesn't tell the full story - the right model choice depends on which type of error is more costly for the specific use case.
+
+This completes Week 2 of the roadmap (pipeline, model comparison, and confusion matrix analysis).
+
+Next Steps: Moving into Week 3 - Unsupervised Learning & Hyperparameter Tuning.
+
