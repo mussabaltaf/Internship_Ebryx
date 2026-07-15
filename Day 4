@@ -1,0 +1,16 @@
+
+
+Summary of today's progress (Week 3: Unsupervised Learning & Hyperparameter Tuning):
+
+1. K-Means Clustering: Reviewed how this algorithm groups similar data points together without predefined labels, using mall customer data (income and spending behavior) as an example.
+
+2. Elbow Method & Silhouette Score: Covered how to scientifically determine the right number of clusters, rather than guessing - the Elbow Method identifies where adding more groups stops being useful, while the Silhouette Score gives an objective number for how well-separated clusters are.
+
+3. PCA (Principal Component Analysis): Learned how this technique compresses multiple features into two dimensions, mainly for visualization purposes when data has too many features to plot directly.
+
+4. GridSearchCV: Covered how this technique automatically tests different model settings (hyperparameters) to find the best-performing combination, rather than relying on manual guesswork.
+
+
+
+
+
