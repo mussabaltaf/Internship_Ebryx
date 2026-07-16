@@ -1,0 +1,14 @@
+
+Summary of today's progress on the Week 4 capstone project: Car Price Prediction.
+
+1. Dataset Selection: Sourced a large, real-world dataset from Kaggle (CarDekho used car listings) containing 8,128 records with detailed specifications - engine size, horsepower, mileage, transmission, ownership history, and more.
+
+2. Data Cleaning: Cleaned technical specification columns that were stored as text with embedded units (e.g., converting "23.4 kmpl" into a usable numeric value). Engineered two new features - car age (from manufacturing year) and brand (extracted from the car name) - to make the data more predictive. Handled all remaining missing values, resulting in a fully clean dataset of 8,128 records with zero missing values.
+
+3. Exploratory Data Analysis: Analyzed the data to understand what drives car prices before modeling:
+- Selling price is heavily right-skewed - most cars sell under 1 million, with a small number of luxury vehicles extending the range much higher. This will inform a log transformation before modeling.
+- Horsepower (max power) showed the strongest correlation with price (0.75), a stronger driver than raw engine size - likely because modern engines can be small but powerful (turbocharging), making horsepower a more direct measure of a car's performance segment.
+- Car age and kilometers driven both showed the expected negative relationship with price, consistent with depreciation.
+
+Key Takeaway: The dataset is clean and well-understood, with clear price drivers identified ahead of model building. This EDA phase ensures the upcoming regression models are built on a solid, validated foundation rather than assumptions.
+
