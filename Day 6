@@ -1,0 +1,15 @@
+
+Summary of today's progress on the Week 4 capstone project: Car Price Prediction.
+
+1. Model Training & Comparison: Trained and compared three regression models - Linear Regression, Decision Tree, and Random Forest - after applying a log transformation to correct the price skew identified during EDA. Random Forest was the clear winner:
+- R²: 97.1% (variation in price explained)
+- RMSE: ~₹138,000 (typical prediction error)
+
+2. Feature Importance: Analyzed which factors most influenced the model's predictions. Car age and horsepower together account for roughly 86% of the model's predictive power, confirming these are the primary drivers of resale value - individual brand and fuel type contributed comparatively little on their own.
+
+3. Model Validation: Visualized actual vs. predicted prices, showing tight clustering around the ideal prediction line, especially for cars under ₹20 lakh (the bulk of the dataset). A few high-value luxury cars showed more prediction error, which is expected given their underrepresentation in the data.
+
+Key Takeaway: The final Random Forest model is highly accurate and the key value drivers (age, horsepower) align with real-world intuition, giving a strong, explainable result for presentation.
+
+Next Steps: Building an interactive Streamlit demo for the final presentation, where specs can be entered to get a live price prediction alongside the model's performance metrics.
+
