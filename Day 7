@@ -1,0 +1,10 @@
+
+Summary of today's progress on the Week 4 capstone project: Car Price Prediction.
+
+1. Model Deployment: Saved the trained Random Forest pipeline along with supporting metrics and feature importance data, so the project could be packaged into a standalone application.
+
+2. Interactive Streamlit Demo: Built and successfully ran an interactive web app with three sections - live price prediction (enter car specs, get an instant estimate), model performance comparison, and feature importance visualization. This makes the project demonstrable rather than just a static notebook.
+
+3. Documentation: Wrote a full README covering the problem statement, dataset, approach, model comparison results, and instructions to run the app - ready for GitHub.
+
+
