@@ -1,0 +1,14 @@
+
+
+Summary of today's progress on the Week 4 capstone project: Car Price Prediction.
+
+1. Model & Concept Review: Reviewed the technical reasoning behind the modeling approach in detail - specifically how Random Forest and Decision Trees adapt between classification and regression tasks, and how the model averages predictions across its underlying trees to produce a final price estimate. This helped solidify a clear, accurate explanation of the model's internal mechanics.
+
+2. Streamlit App Refinement: Reviewed and refined the interactive Streamlit application, double-checking the prediction logic, model loading, and output formatting to ensure the demo runs smoothly end-to-end.
+
+3. Documentation: Finalized the README covering the problem statement, dataset, methodology, and results.
+
+4. GitHub Deployment: Continued setting up version control for the project - working through repository setup and exploring GitHub Desktop as a more streamlined way to publish the project, since the command-line authentication required a few extra steps. Will complete the push in the next session.
+
+Key Takeaway: The project itself is complete and functioning end-to-end (cleaning, modeling, evaluation, interactive demo). Remaining work is finalizing the GitHub publish.
+
